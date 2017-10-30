@@ -1,0 +1,20 @@
+Package: CollabAssess
+Type: Package
+Title: Model For Error-Prone Responses in Network Data to Assess
+        Collaboration
+Version: 0.1.0
+Authors@R: c(person("Katherine R.", "McLaughlin",
+  email = "mclaugka@oregonstate.edu", role = c("aut", "cre")),
+  person("Joshua D.", "EmBree",
+  email = "jembree@rand.org", role = c("aut")))
+Description: This package contains model functions and several simulation examples. (MORE)
+License: GPL-2
+Depends: R (>= 3.2.0), ergm, GGally, ggplot2, gridExtra, sna
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+NeedsCompilation: no
+Packaged: 2017-05-05 18:50:21 UTC; mclaugka
+Author: Katherine R. McLaughlin [aut, cre],
+  Joshua D. EmBree [aut]
+Maintainer: Katherine R. McLaughlin <mclaugka@oregonstate.edu>
